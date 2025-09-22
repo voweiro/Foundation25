@@ -1,0 +1,107 @@
+article {
+    margin: 0em 4em 0em 4em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.hero {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+    color: #9f2042;
+    text-align: center;
+    margin: 1em 0 0.5em 0;
+    text-transform: uppercase;
+}
+
+#details {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.25rem;
+    text-align: center;
+    color: #666;
+    margin-bottom: 1.5em;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    margin-bottom: 1em;
+    color: #333;
+}
+
+blockquote {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    font-style: italic;
+    color: #666;
+    text-align: center;
+    margin: 2em 0;
+    padding: 1em;
+    border-left: 4px solid #9f2042;
+    background-color: #f9f9f9;
+}
+
+#buttons {
+    text-align: center;
+    margin: 2em 0;
+}
+
+#buttons a {
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    color: #9f2042;
+    text-decoration: none;
+    padding: 0.8em 1.5em;
+    margin: 0 0.5em;
+    border: 2px solid #9f2042;
+    border-radius: 8px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+#buttons a:visited {
+    color: #9f2042;
+}
+
+#buttons a:hover {
+    background-color: #a9a9ba;
+    color: #9f2042;
+    border-color: #a9a9ba;
+}
+
+footer {
+    background-color: #29293a;
+    color: white;
+    text-align: center;
+    padding: 1.5em;
+    margin-top: 3em;
+}
+
+footer p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.9rem;
+    margin: 0.5em 0;
+    color: white;
+    text-align: center;
+}
+
+footer a {
+    color: #ec8295;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: #ec8295;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

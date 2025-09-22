@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>Ex1</title>
+  </head>
+  <body>
+    <form action="#" method="post">
+      <fieldset width="50%">
+        <legend>Personal Info Group</legend>
+        <p></p>
+        <label for="name">Full Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        />
+      </p>
+        <p>
+        <label for="email">Student Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter Your Email Adress"
+          required
+        />
+        </p>
+        
+        <label for="tel">tel:</label>
+        <input type="number" id="tel" name="tel" placeholder="Enter your Phone Number" />
+      </fieldset>
+    
+
+      <fieldset width="50%">
+        <legend>Course Info Group</legend>
+        <p>
+        <label for="course">Course:</label>
+        <select id="course" name="course" required aria-placeholder="Select your course">
+            <option value="" disabled selected>Select your course</option>
+          <option value="web">Web</option>
+          <option value="mobile">Mobile</option>
+          <option value="game">Game</option>
+        </select>
+        </p>
+
+        <p>
+            <label for="start">Start Date:</label>
+            <input type="date" id="start" name="start" required />
+        </p>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
