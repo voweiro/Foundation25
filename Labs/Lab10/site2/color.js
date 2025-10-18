@@ -53,7 +53,7 @@ function randomHexColor() {
     hex += hexDigits[Math.floor(Math.random() * 16)];
   }
   colorPanel.style.backgroundColor = hex;
-  colorText.innerText = hex;
+  colorText.innerText = "Hex Color: " + hex;
 }
 
 btn1.addEventListener("click", randomColor);
