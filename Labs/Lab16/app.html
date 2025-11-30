@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <button id="logout" type="button">Log Out</button>
+
+        <section id="message"></section>
+    </nav>
+    <h2>Welcome to the Mood Tracker App</h2>
+    <h3>Mood Tracking</h3>
+    <input type="text" id="moodInput" placeholder="How do you feel?">
+    <button id="saveMood" type="button">Save</button>
+    <ul id="moodList"></ul>
+<script>
+  window.__FIREBASE_CONFIG__ = {
+    apiKey: "AIzaSyD_ArJ-_EWCn2zP2rZN7hVEBrMxveLANkQ",
+    authDomain: "testing-80d96.firebaseapp.com",
+    projectId: "testing-80d96",
+    storageBucket: "testing-80d96.firebasestorage.app",
+    messagingSenderId: "110843578038",
+    appId: "1:110843578038:web:d08c1ecbf70f6ee48f0817",
+    measurementId: "G-Y76KF8178Q"
+  }
+</script>
+<script type="module" src="auth.js"></script>
+</body>
+
+</html>
